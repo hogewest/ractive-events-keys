@@ -35,6 +35,10 @@
 	var ractive_events_keys__escape = makeKeyDefinition(27);
 	var space = makeKeyDefinition(32);
 
+	var del = makeKeyDefinition(46);
+	var pageup = makeKeyDefinition(33);
+	var pagedown = makeKeyDefinition(34);
+
 	var leftarrow = makeKeyDefinition(37);
 	var rightarrow = makeKeyDefinition(39);
 	var downarrow = makeKeyDefinition(40);
@@ -44,6 +48,9 @@
 	exports.tab = tab;
 	exports.escape = ractive_events_keys__escape;
 	exports.space = space;
+	exports.del = del;
+	exports.pageup = pageup;
+	exports.pagedown = pagedown;
 	exports.leftarrow = leftarrow;
 	exports.rightarrow = rightarrow;
 	exports.downarrow = downarrow;
